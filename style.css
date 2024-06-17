@@ -17,7 +17,7 @@ body, html {
   margin-top: -200px;
   margin-left: -200px;
   border-radius: 10px;
-	box-shadow: 4px 8px 16px 0 rgba(0,0,0,0.1);
+  box-shadow: 4px 8px 16px 0 rgba(243, 62, 62, 0.267);
 	overflow: hidden;
   background: #333;
   color: #333;
@@ -34,8 +34,8 @@ body, html {
 }
 
 .menu-button {
-	width: 90px;
-	height: 90px;
+	width: 200px;
+	height: 200px;
 	background: #333;
 	box-shadow: 0px 0px 10px #dd1d1d;
 	border-radius: 50%;
@@ -50,25 +50,25 @@ body, html {
 .menu-button .bar1,
 .menu-button .bar2,
 .menu-button .bar3 {
-	width: 40px;
-	height: 4px;
+	width: 90px;
+	height: 10px;
 	background-color: #dd1d1d;
 	position: absolute;
 	transition: 0.3s;
-	margin: 10px 0;
+	margin: 40px 0;
 	border-radius: 3px;
 }
 
 .menu-button .bar1 {
-    top: 24px;
+    top: 32px;
 }
 
 .menu-button .bar2 {
-    top: 34px;
+    top: 56px;
 }
 
 .menu-button .bar3 {
-    top: 44px;
+    top: 80px;
 }
 
 .change .bar1 {
