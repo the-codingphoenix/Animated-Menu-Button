@@ -60,7 +60,7 @@ body, html {
 }
 
 .menu-button .bar1 {
-    top: 32px;
+    top: 35px;
 }
 
 .menu-button .bar2 {
@@ -68,10 +68,11 @@ body, html {
 }
 
 .menu-button .bar3 {
-    top: 80px;
+    top: 76px;
 }
 
 .change .bar1 {
+    top: 40px;
     transform: rotate(-45deg) translate(-7px, 7px);
 }
 
@@ -80,6 +81,7 @@ body, html {
 }
 
 .change .bar3 {
+    top: 60px;
     transform: rotate(45deg) translate(-7px, -7px);
 }
 
